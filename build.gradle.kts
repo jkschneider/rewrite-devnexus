@@ -7,6 +7,8 @@ group = "com.devnexus"
 description = "Rewrite recipes."
 
 dependencies {
+    implementation("dev.morphia.morphia:morphia-core:latest.release")
+
     // The bom version can also be set to a specific version
     // https://github.com/openrewrite/rewrite-recipe-bom/releases
     implementation(platform("org.openrewrite.recipe:rewrite-recipe-bom:latest.release"))
