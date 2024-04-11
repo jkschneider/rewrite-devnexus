@@ -7,6 +7,11 @@ group = "com.devnexus"
 description = "Rewrite recipes."
 
 dependencies {
+    implementation("org.springframework.cloud:spring-cloud-function-context:latest.release")
+    implementation("org.springframework.cloud:spring-cloud-function-web:latest.release")
+    implementation("org.springframework:spring-webmvc:latest.release")
+    implementation("org.springframework.boot:spring-boot-starter-web:latest.release")
+
     implementation("dev.morphia.morphia:morphia-core:latest.release")
 
     // The bom version can also be set to a specific version
